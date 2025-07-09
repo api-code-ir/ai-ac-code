@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>چت با هوش مصنوعی</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="chat-container">
+        <div id="chat-header">
+            <h1>چت با دستیار هوش مصنوعی</h1>
+        </div>
+        <div id="chat-messages">
+            <!-- Messages will appear here -->
+        </div>
+        <div id="chat-input">
+            <input type="text" id="user-input" placeholder="پیام خود را تایپ کنید...">
+            <button id="send-button">ارسال</button>
+            <input type="file" id="image-upload" accept="image/*" style="display: none;">
+            <button id="upload-image-button">آپلود عکس</button>
+            <input type="file" id="audio-upload" accept="audio/*" style="display: none;">
+            <button id="upload-audio-button">آپلود صدا</button>
+            <button id="generate-image-button">ساخت عکس</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
